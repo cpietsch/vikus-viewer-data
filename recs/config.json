@@ -5,21 +5,21 @@
     "multiple": true
   },
   "loader": {
-    "info": "data/info.md",
-    "timeline": "data/timeline.csv",
-    "items": "data/data.csv",
+    "info": "https://vikusviewer.fh-potsdam.de/recs/data/info.md",
+    "timeline": "https://vikusviewer.fh-potsdam.de/recs/data/timeline.csv",
+    "items": "https://vikusviewer.fh-potsdam.de/recs/data/data.csv",
     "textures": {
       "medium": {
         "size": 256,
-        "url": "data/sprites/web_web_full.json"
+        "url": "https://vikusviewer.fh-potsdam.de/recs/data//sprites/web_web_full.json"
       },
       "detail": {
         "size": 1024,
-        "url": "data/1024jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/recs/data//1024jpg/"
       },
       "big": {
         "size": 4096,
-        "url": "data/4096jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/recs/data//4096jpg/"
       }
     }
   },
