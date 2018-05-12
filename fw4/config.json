@@ -1,0 +1,110 @@
+{
+  "project": {
+    "name": "FW4: Vergangene Visionen",
+    "quality": 1,
+    "title": "Vergangene Visionen aus der Feder von Friedrich Wilhelm IV.",
+    "description": "Die Visualisierung zeigt den Bestand historischer Zeichnungen von Friedrich Wilhelm IV. entlang einer thematischen und zeitlichen Einordnung.",
+    "info1": "Die Stichwörter stellen die häufigsten Themen in den Zeichnungen Friedrich Wilhelms IV dar. Klicken Sie auf die Stichwörter, um die Auswahl der Zeichnungen thematisch einzugrenzen.",
+    "info2": "Die Zeichnungen sind entlang einer Zeitleiste entsprechend ihrer Entstehungsjahre positioniert. Unter den Jahreszahlen befinden sich weitere historische und biographische Informationen.",
+    "info3": "Zoomen Sie mit Ihrem Touchpad oder Scrollrad in den Bereich der Zeichnungen und Zeitleiste, um mehr Details zu sehen. Klicken und ziehen Sie den Hintergrund, um den Sichtbereich zu verschieben."
+  },
+  "loader": {
+    "timeline": "data/fw4/timeline.csv",
+    "items": "data/fw4/data.csv",
+    "textures": {
+      "medium": {
+        "size": 128,
+        "url": "data/fw4/sprites128/web_web_full.json"
+      },
+      "detail": {
+        "size": 1024,
+        "url": "/fw4/images/1024jpg/"
+      },
+      "big": {
+        "size": 4096,
+        "url": "/fw4/images/4096jpg/"
+      }
+    }
+  },
+  "style": {
+    "fontColor": "#f7efcd",
+    "fontColorActive": "#1c1e1f",
+    "fontBackground": "#f7efcd",
+    "textShadow": "1px 1px 0px #00000085",
+    "canvasBackground": "#1c1e1f",
+    "timelineBackground": "#f7efcd",
+    "timelineFontColor": "#000",
+    "backgroundHeader": "#035151",
+    "fontColorHeader": "#fffefa",
+    "sidebarBackground": "#fffefa",
+    "infobarBackground": "#353535",
+    "searchbarBackground": "#353535"
+  },
+  "projection": {
+    "columns": 6
+  },
+  "detail": {
+    "structure": [
+      {
+        "name": "Beschreibung",
+        "source": "_beschreibung",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Kommentar",
+        "source": "_kommentar",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Bezeichnungen",
+        "source": "_bezeichnungen",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Datierung",
+        "source": "_zeit",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Material",
+        "source": "_material",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Maße",
+        "source": "column._width + 'mm * ' + column._height + 'mm'",
+        "display": "column",
+        "type": "function"
+      },
+      {
+        "name": "Thementexte",
+        "source": "_thementexte",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Stichworte",
+        "source": "keywords",
+        "display": "column",
+        "type": "keywords"
+      },
+      {
+        "name": "Inventarnr.",
+        "source": "id",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Literatur",
+        "source": "_literatur",
+        "display": "column",
+        "type": "text"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "project": {
+    "name": "RECS Flugschriften",
+    "quality": 1,
+    "multiple": true
+  },
+  "loader": {
+    "info": "data/info.md",
+    "timeline": "data/timeline.csv",
+    "items": "data/data.csv",
+    "textures": {
+      "medium": {
+        "size": 256,
+        "url": "data/sprites/web_web_full.json"
+      },
+      "detail": {
+        "size": 1024,
+        "url": "data/1024jpg/"
+      },
+      "big": {
+        "size": 4096,
+        "url": "data/4096jpg/"
+      }
+    }
+  },
+  "style": {
+    "fontColor": "#fff",
+    "fontColorActive": "#fff",
+    "linkColor": "#fff",
+    "fontBackground": "#4c4c47",
+    "textShadow": "1px 1px 1px #66665b",
+    "canvasBackground": "#999989",
+    "timelineBackground": "#f2f2e6",
+    "timelineFontColor": "#000",
+    "sidebarBackground": "#fff",
+    "infobarBackground": "#66665b",
+    "searchbarBackground": "#66665b"
+  },
+  "projection": {
+    "columns": 5
+  },
+  "detail": {
+    "structure": [
+      {
+        "name": "_titel",
+        "source": "_titel",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "_zustandsbeschreibung",
+        "source": "_zustandsbeschreibung",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "_material",
+        "source": "_material",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "_kommentar",
+        "source": "_kommentar",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "_objektgeschichte",
+        "source": "_objektgeschichte",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Stichworte",
+        "source": "keywords",
+        "display": "column",
+        "type": "keywords"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "project": {
+    "name": "RECS Flugschriften",
+    "quality": 1,
+    "multiple": true,
+    "title": "Flugschriften aus der Zeit des Siebenjährigen Kriegs",
+    "description": "2009 konnte die Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg (SPSG) dank der großzügigen Unterstützung durch das Land Brandenburg, die Kulturstiftung der Länder und die Museumsshop Freunde der Preußischen Schlösser und Gärten GmbH über die Freunde der Preußischen Schlösser und Gärten mit der Bibliothek Gerhard Knolls die größte und wichtigste Privatsammlung der Werke von und Literatur über Friedrich den Großen erwerben. Die Gerhard-Knoll-Forschungsbibliothek der SPSG umfasst neben rund 9.000 Bänden der Werkausgaben des Königs und zeitgenössischer Literatur zu Friedrich dem Großen und Preußen eine umfängliche und bedeutende Flugschriftensammlung. Diese ist einzigartig in Berlin-Brandenburg, weil die Sammlung der Staatsbibliothek zu Berlin im Zweiten Weltkrieg verloren ging. Innerhalb der Sammlung kommt den Flugschriften aus der Zeit des Siebenjährigen Kriegs besondere Bedeutung zu. Sowohl Friedrich als auch seine Gegner nutzten dieses Medium intensiv als politisches Instrument zur Beeinflussung der öffentlichen Meinung. In der Bibliothek Knoll sind aus dieser Zeit 208 Drucke unterschiedlichen Umfangs - von einer Seite bis zu 150 Seiten - vorhanden, die hier vorgestellt werden. Beteiligt: Ralf Zimmer, Kristin Laue, Sabine Hahn, Jürgen Luh Gefördert durch die Bühler-Bolstorff-Stiftung Berlin "
+  },
+  "loader": {
+    "timeline": "data/recs/timeline.csv",
+    "items": "data/recs/data.csv",
+    "textures": {
+      "preview": "https://recs.uber.space/images/sprites32dds/menu_small_web.json",
+      "medium": "https://recs.uber.space/images/sprites256dds/menu_small_web_jpg.json",
+      "detail": "https://recs.uber.space/images/1024jpg/",
+      "big": "https://recs.uber.space/images/4096jpg/"
+    }
+  },
+  "style": {
+    "fontColor": "#f7efcd",
+    "fontColorActive": "#f7efcd",
+    "fontBackground": "#1c1e1f",
+    "textShadow": "1px 1px 0px #00000085",
+    "canvasBackground": "#1c1e1f",
+    "timelineBackground": "#f7efcd",
+    "timelineFontColor": "#000",
+    "backgroundHeader": "#035151",
+    "fontColorHeader": "#fffefa",
+    "sidebarBackground": "#fffefa",
+    "infobarBackground": "#353535",
+    "searchbarBackground": "#353535"
+  },
+  "projection": {
+    "columns": 5
+  },
+  "detail": {
+    "structure": [
+      {
+        "name": "_titel",
+        "source": "_titel",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "_zustandsbeschreibung",
+        "source": "_zustandsbeschreibung",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "_material",
+        "source": "_material",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "_kommentar",
+        "source": "_kommentar",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "_objektgeschichte",
+        "source": "_objektgeschichte",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Stichworte",
+        "source": "keywords",
+        "display": "column",
+        "type": "keywords"
+      }
+    ]
+  }
+}

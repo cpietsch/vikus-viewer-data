@@ -1,0 +1,107 @@
+{
+  "project": {
+    "name": "Goethes Ausleihen",
+    "title": "Goethes Bibliothek",
+    "description": "Goethes Bibliothek enthält Bücher aller Wissensgebiete aus über 20 Sprachen und Literaturen vom 16. Jahrhundert bis zur Goethezeit. In- und ausländische Zeitschriften, Lexika, Auktionskataloge sind ebenso vorhanden wie wertvolle Kunstbände und zeitgenössische Literatur. Über ein Viertel der Sammlung nehmen die Naturwissenschaften ein. Für die Forschung von unschätzbarem Wert sind die eigenhändigen Eintragungen und Anmerkungen Goethes.",
+    "info1": "Die Stichwörter stellen die häufigsten Themen der ausgeliehenen Bücher dar. Klicken Sie auf die Stichwörter, um die Auswahl der Titelblätter thematisch einzugrenzen.",
+    "info2": "Die Bücher sind entlang einer Zeitleiste entsprechend ihres Ausleihdatum positioniert. Unter den Jahreszahlen befinden sich weitere historische und biographische Informationen.",
+    "info3": "Zoomen Sie mit Ihrem Touchpad oder Scrollrad in den Bereich der Zeichnungen und Zeitleiste, um mehr Details zu sehen. Klicken und ziehen Sie den Hintergrund, um den Sichtbereich zu verschieben."
+  },
+  "loader": {
+    "timeline": "data/goethe/timeline.csv",
+    "items": "data/goethe/data.csv",
+    "textures": {
+      "preview": "data/goethe/sprites256jpg/web_web_preview.json",
+      "medium": {
+        "size": 128,
+        "url": "data/goethe/sprites256jpg/web_web_full.json"
+      },
+      "detail": {
+        "size": 1024,
+        "url": "data/goethe/1024jpg/"
+      }
+    }
+  },
+  "style": {
+    "fontColor": "#ffffff",
+    "fontColorActive": "#ffffff",
+    "fontBackground": "#634512",
+    "textShadow": "1px 1px 0px #00000085",
+    "canvasBackground": "#a06400",
+    "timelineBackground": "#fbfaf9",
+    "timelineFontColor": "#000",
+    "backgroundHeader": "#035151",
+    "fontColorHeader": "#ffffff",
+    "sidebarBackground": "#ffffff",
+    "sidebarInverted": true,
+    "infobarBackground": "#563a0b",
+    "searchbarBackground": "#583700"
+  },
+  "projection": {
+    "columns": 4
+  },
+  "detail": {
+    "structure": [
+      {
+        "name": "Titel",
+        "source": "_titel",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Bemerkung",
+        "source": "_bemerkung",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "Stichworte",
+        "source": "_keywords",
+        "display": "column",
+        "type": "keywords"
+      },
+      {
+        "name": "Ausleihe",
+        "source": "_ausleihe",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Rückgabe",
+        "source": "_rueckgabe",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Verfasser",
+        "source": "_verfasser",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "OPAC",
+        "source": "_opac",
+        "display": "column",
+        "type": "link"
+      },
+      {
+        "name": "Digitalisat des Titels",
+        "source": "_digitalisat1",
+        "display": "column",
+        "type": "link"
+      },
+      {
+        "name": "Historisches Ausleihverzeichnis",
+        "source": "_digitalisat2",
+        "display": "column",
+        "type": "link"
+      },
+      {
+        "name": "Erwähnung in 'Elise von Keudell: Goethe als Benutzer der Weimarer Bibliothek'",
+        "source": "_digitalisat3",
+        "display": "column",
+        "type": "link"
+      }
+    ]
+  }
+}
