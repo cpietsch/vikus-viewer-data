@@ -16,11 +16,11 @@
       },
       "detail": {
         "size": 1024,
-        "url": "https://vikusviewer.fh-potsdam.de/muenzen/data/data/1024jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/muenzen/data/1024jpg/"
       },
       "big": {
         "size": 4096,
-        "url": "https://vikusviewer.fh-potsdam.de/muenzen/data/data/4000jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/muenzen/data/4000jpg/"
       }
     }
   },
