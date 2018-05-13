@@ -1,6 +1,6 @@
-#Sammlung der Burggrafen und Fürsten zu Dohna
+# Sammlung der Burggrafen und Fürsten zu Dohna
 
-Die Sammlung der SPSG umfasst rund 1.600 Münzen und Medaillen. An die 1.500 stammen aus der Sammlung der Burggrafen und Fürsten zu Dohna, die mit Mitteln der Stiftung Deutsche Klassenlotterie Berlin erworben wurde. Es handelt sich vorwiegend um brandenburgisch-preußische Münzen und Medaillen des 16. bis 19. Jahrhunderts und einige wenige antike Münzen und Taler aus dem deutschen Sprachraum. Die Sammlung ist zurzeit nicht ausgestellt.
+Die Sammlung der [SPSG](http://spsg.de) umfasst rund 1.600 Münzen und Medaillen. An die 1.500 stammen aus der Sammlung der Burggrafen und Fürsten zu Dohna, die mit Mitteln der Stiftung Deutsche Klassenlotterie Berlin erworben wurde. Es handelt sich vorwiegend um brandenburgisch-preußische Münzen und Medaillen des 16. bis 19. Jahrhunderts und einige wenige antike Münzen und Taler aus dem deutschen Sprachraum. Die Sammlung ist zurzeit nicht ausgestellt.
 
 ![tags](img/infobar_tags.svg)
 
