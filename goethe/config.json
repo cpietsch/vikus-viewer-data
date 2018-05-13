@@ -9,7 +9,7 @@
     "textures": {
       "preview": "https://vikusviewer.fh-potsdam.de/goethe/data/sprites256jpg/web_web_preview.json",
       "medium": {
-        "size": 128,
+        "size": 256,
         "url": "https://vikusviewer.fh-potsdam.de/goethe/data/sprites256jpg/web_web_full.json"
       },
       "detail": {
