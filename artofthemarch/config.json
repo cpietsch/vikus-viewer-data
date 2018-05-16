@@ -6,12 +6,12 @@
 },
   "loader": {
     "info": "https://vikusviewer.fh-potsdam.de/artofthemarch/data/info.md",
-    "timeline": "https://vikusviewer.fh-potsdam.de/artofthemarch/data//timeline.csv",
-    "items": "https://vikusviewer.fh-potsdam.de/artofthemarch/data//data.csv",
+    "timeline": "https://vikusviewer.fh-potsdam.de/artofthemarch/data/timeline.csv",
+    "items": "https://vikusviewer.fh-potsdam.de/artofthemarch/data/data.csv",
     "textures": {
       "medium": {
         "size": 256,
-        "url": "https://vikusviewer.fh-potsdam.de/artofthemarch/data//sprites/web_web_full.json"
+        "url": "https://vikusviewer.fh-potsdam.de/artofthemarch/data/sprites/web_web_full.json"
       },
       "detail": {
         "size": 1000,
