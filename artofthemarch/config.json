@@ -20,7 +20,7 @@
     }
   },
   "style": {
-    "fontColor": "##505454",
+    "fontColor": "#505454",
     "fontColorActive": "#ffffff",
     "fontBackground": "#505454",
     "textShadow": "none",
