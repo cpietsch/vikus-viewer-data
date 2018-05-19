@@ -1,25 +1,31 @@
 {
   "project": {
-    "name": "RECS Flugschriften",
-    "quality": 1,
-    "multiple": true,
-    "title": "Flugschriften aus der Zeit des Siebenjährigen Kriegs",
-    "description": "2009 konnte die Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg (SPSG) dank der großzügigen Unterstützung durch das Land Brandenburg, die Kulturstiftung der Länder und die Museumsshop Freunde der Preußischen Schlösser und Gärten GmbH über die Freunde der Preußischen Schlösser und Gärten mit der Bibliothek Gerhard Knolls die größte und wichtigste Privatsammlung der Werke von und Literatur über Friedrich den Großen erwerben. Die Gerhard-Knoll-Forschungsbibliothek der SPSG umfasst neben rund 9.000 Bänden der Werkausgaben des Königs und zeitgenössischer Literatur zu Friedrich dem Großen und Preußen eine umfängliche und bedeutende Flugschriftensammlung. Diese ist einzigartig in Berlin-Brandenburg, weil die Sammlung der Staatsbibliothek zu Berlin im Zweiten Weltkrieg verloren ging. Innerhalb der Sammlung kommt den Flugschriften aus der Zeit des Siebenjährigen Kriegs besondere Bedeutung zu. Sowohl Friedrich als auch seine Gegner nutzten dieses Medium intensiv als politisches Instrument zur Beeinflussung der öffentlichen Meinung. In der Bibliothek Knoll sind aus dieser Zeit 208 Drucke unterschiedlichen Umfangs - von einer Seite bis zu 150 Seiten - vorhanden, die hier vorgestellt werden. Beteiligt: Ralf Zimmer, Kristin Laue, Sabine Hahn, Jürgen Luh Gefördert durch die Bühler-Bolstorff-Stiftung Berlin "
-  },
+    "name": "Van Gogh",
+    "quality": 1
+ },
   "loader": {
-    "timeline": "data/recs/timeline.csv",
-    "items": "data/recs/data.csv",
+    "info": "https://vikusviewer.fh-potsdam.de/vangogh/data/info.md",
+    "timeline": "https://vikusviewer.fh-potsdam.de/vangogh/data/timeline.csv",
+    "items": "https://vikusviewer.fh-potsdam.de/vangogh/data/data.csv",
     "textures": {
-      "preview": "https://recs.uber.space/images/sprites32dds/menu_small_web.json",
-      "medium": "https://recs.uber.space/images/sprites256dds/menu_small_web_jpg.json",
-      "detail": "https://recs.uber.space/images/1024jpg/",
-      "big": "https://recs.uber.space/images/4096jpg/"
+      "medium": {
+        "size": 128,
+        "url": "https://vikusviewer.fh-potsdam.de/vangogh/data/sprites/web_web_full.json"
+      },
+      "detail": {
+        "size": 1024,
+        "url": "https://vikusviewer.fh-potsdam.de/vangogh/data/1024/"
+      },
+      "big": {
+        "size": 4096,
+        "url": "https://vikusviewer.fh-potsdam.de/vangogh/data/4096/"
+      }
     }
   },
   "style": {
     "fontColor": "#f7efcd",
-    "fontColorActive": "#f7efcd",
-    "fontBackground": "#1c1e1f",
+    "fontColorActive": "#1c1e1f",
+    "fontBackground": "#f7efcd",
     "textShadow": "1px 1px 0px #00000085",
     "canvasBackground": "#1c1e1f",
     "timelineBackground": "#f7efcd",
@@ -31,45 +37,45 @@
     "searchbarBackground": "#353535"
   },
   "projection": {
-    "columns": 5
+    "columns": 6
   },
   "detail": {
-    "structure": [
+    "structure": [      
       {
-        "name": "_titel",
-        "source": "_titel",
-        "display": "wide",
+        "name": "Description",
+        "source": "_description",
+        "display": "column",
         "type": "text"
       },
       {
-        "name": "_zustandsbeschreibung",
-        "source": "_zustandsbeschreibung",
-        "display": "wide",
+        "name": "Year",
+        "source": "_year",
+        "display": "column",
         "type": "text"
       },
       {
-        "name": "_material",
+        "name": "Material",
         "source": "_material",
         "display": "column",
         "type": "text"
       },
       {
-        "name": "_kommentar",
-        "source": "_kommentar",
+        "name": "Dimensions",
+        "source": "column._width + 'mm * ' + column._height + 'mm'",
         "display": "column",
-        "type": "text"
+        "type": "function"
       },
       {
-        "name": "_objektgeschichte",
-        "source": "_objektgeschichte",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "Stichworte",
+        "name": "Keywords",
         "source": "keywords",
         "display": "column",
         "type": "keywords"
+      },
+      {
+        "name": "Id",
+        "source": "imageid",
+        "display": "column",
+        "type": "text"
       }
     ]
   }

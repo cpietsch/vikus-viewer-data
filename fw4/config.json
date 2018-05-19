@@ -14,11 +14,11 @@
       },
       "detail": {
         "size": 1024,
-        "url": "https://vikusviewer.fh-potsdam.de/fw4/data/fw4/1024jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/fw4/data/1024jpg/"
       },
       "big": {
         "size": 4096,
-        "url": "https://vikusviewer.fh-potsdam.de/fw4/data/fw4/4096jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/fw4/data/4096jpg/"
       }
     }
   },
