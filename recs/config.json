@@ -34,6 +34,7 @@
     "timelineFontColor": "#000",
     "sidebarBackground": "#fff",
     "infobarBackground": "#66665b",
+    "infobarFontColor": "#fff",
     "searchbarBackground": "#66665b"
   },
   "projection": {

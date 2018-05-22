@@ -31,6 +31,7 @@
     "sidebarBackground": "#ffffff",
     "sidebarInverted": true,
     "infobarBackground": "#563a0b",
+    "infobarFontColor": "#ffffff",
     "searchbarBackground": "#583700"
   },
   "projection": {
