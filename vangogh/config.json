@@ -23,18 +23,18 @@
     }
   },
   "style": {
-    "fontColor": "#f7efcd",
-    "fontColorActive": "#1c1e1f",
-    "fontBackground": "#f7efcd",
-    "textShadow": "1px 1px 0px #00000085",
-    "canvasBackground": "#1c1e1f",
-    "timelineBackground": "#f7efcd",
+    "fontColor": "#2d3b43",
+    "fontColorActive": "#eae2cb",
+    "fontBackground": "#295b71",
+    "textShadow": "1px 1px 0px #f8f4e9",
+    "canvasBackground": "#eae2cb",
+    "timelineBackground": "#615537",
     "timelineFontColor": "#000",
     "backgroundHeader": "#035151",
-    "fontColorHeader": "#fffefa",
-    "sidebarBackground": "#fffefa",
-    "infobarBackground": "#353535",
-    "searchbarBackground": "#353535"
+    "fontColorHeader": "#f8774f",
+    "sidebarBackground": "#948b71",
+    "infobarBackground": "#b2a990",
+    "searchbarBackground": "#295b71"
   },
   "projection": {
     "columns": 6
