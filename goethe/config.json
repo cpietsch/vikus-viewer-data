@@ -28,10 +28,10 @@
     "timelineFontColor": "#000",
     "backgroundHeader": "#035151",
     "fontColorHeader": "#ffffff",
-    "sidebarBackground": "#ffffff",
+    "detailBackground": "#ffffff",
     "sidebarInverted": true,
-    "infobarBackground": "#563a0b",
-    "infobarFontColor": "#ffffff",
+    "infoBackground": "#563a0b",
+    "infoFontColor": "#ffffff",
     "searchbarBackground": "#583700"
   },
   "projection": {

@@ -32,9 +32,9 @@
     "canvasBackground": "#999989",
     "timelineBackground": "#f2f2e6",
     "timelineFontColor": "#000",
-    "sidebarBackground": "#fff",
-    "infobarBackground": "#66665b",
-    "infobarFontColor": "#fff",
+    "detailBackground": "#fff",
+    "infoBackground": "#66665b",
+    "infoFontColor": "#fff",
     "searchbarBackground": "#66665b"
   },
   "projection": {
@@ -74,7 +74,7 @@
       },
       {
         "name": "Stichworte",
-        "source": "keywords",
+        "source": "_keywords",
         "display": "column",
         "type": "keywords"
       }

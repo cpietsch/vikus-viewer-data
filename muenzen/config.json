@@ -19,7 +19,7 @@
         "url": "https://vikusviewer.fh-potsdam.de/muenzen/data/1024jpg/"
       },
       "big": {
-        "size": 4096,
+        "size": 4000,
         "url": "https://vikusviewer.fh-potsdam.de/muenzen/data/4000jpg/"
       }
     }
@@ -34,9 +34,9 @@
     "timelineFontColor": "#000",
     "backgroundHeader": "#035151",
     "fontColorHeader": "#fffefa",
-    "sidebarBackground": "#f8f9fa",
-    "infobarBackground": "#f8f9fa",
-    "infobarFontColor": "#2b2b2b",
+    "detailBackground": "#f8f9fa",
+    "infoBackground": "#f8f9fa",
+    "infoFontColor": "#2b2b2b",
     "searchbarBackground": "#353535"
   },
   "projection": {
