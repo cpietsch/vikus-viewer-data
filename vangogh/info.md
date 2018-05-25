@@ -1,16 +1,17 @@
 # Van Gogh
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The [Van Gogh Museum](http://vangoghmuseum.nl/en/) in Amsterdam owns the world's largest collection of artworks by Vincent van Gogh. Among the collection are world famous paintings like "Sunflowers", "Almond Blossom" and "The Potato Eaters". Vincent lived and worked in 14 different cities in the Netherlands, Belgium and France, where among the many famous paintings and self-portraits he also created drawings of the people, animals and landscapes of the region to improve his artistic skills.
 
 ![tags](img/infobar_tags_b.svg)
 
-Die Stichwörter stellen die häufigsten Themen der Flugschriften dar. Klicken Sie auf die Stichwörter, um die Auswahl der Flugschriften thematisch einzugrenzen.
+The keywords represent prominent topics in and techniques of the artworks. Click on the keywords in order to thematically narrow down the selection of paintings and drawings.
 
 ![time](img/infobar_time_b.svg)
 
-Die Flugschriften sind entlang einer Zeitleiste entsprechend ihres Datum positioniert. Unter den Jahreszahlen befinden sich weitere historische und biographische Informationen.
+The artworks are positioned along their year of origin. Below the year you can find further biographical information.
 
 ![time](img/infobar_scroll_b.svg)
 
-Zoomen Sie mit Ihrem Touchpad oder Scrollrad in den Bereich der Zeichnungen und Zeitleiste, um mehr Details zu sehen. Klicken und ziehen Sie den Hintergrund, um den Sichtbereich zu verschieben.
+You can either zoom with your touchpad or scroll wheel in the areas of the artworks in order to see more details. Klick and drag the background in order to adjust the visible area.
 
+Background research: Viktoria Brüggemann
