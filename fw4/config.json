@@ -32,8 +32,9 @@
     "timelineFontColor": "#000",
     "backgroundHeader": "#035151",
     "fontColorHeader": "#fffefa",
-    "sidebarBackground": "#fffefa",
-    "infobarBackground": "#353535",
+    "detailBackground": "#fffefa",
+    "infoBackground": "#353535",
+    "infoFontColor": "#f7efcd",
     "searchbarBackground": "#353535"
   },
   "projection": {
@@ -66,13 +67,7 @@
         "type": "text"
       },
       {
-        "name": "Material",
-        "source": "_material",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "Maße",
+        "name": "Abmessungen",
         "source": "column._width + 'mm * ' + column._height + 'mm'",
         "display": "column",
         "type": "function"
@@ -85,19 +80,31 @@
       },
       {
         "name": "Stichworte",
-        "source": "keywords",
+        "source": "_keywords",
         "display": "column",
         "type": "keywords"
       },
       {
         "name": "Inventarnr.",
-        "source": "id",
+        "source": "_id",
         "display": "column",
         "type": "text"
       },
       {
         "name": "Literatur",
         "source": "_literatur",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Material",
+        "source": "_marterial",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Wasserzeichen",
+        "source": "_wasserzeichen",
         "display": "column",
         "type": "text"
       }

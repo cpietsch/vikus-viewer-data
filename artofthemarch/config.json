@@ -29,9 +29,10 @@
     "timelineFontColor": "#505454",
     "backgroundHeader": "#035151",
     "fontColorHeader": "#fffefa",
-    "sidebarBackground": "#fdfeff",
+    "detailBackground": "#fdfeff",
     "sidebarInverted": true,
-    "infobarBackground": "#fdfeff",
+    "infoBackground": "#fdfeff",
+    "infoFontColor": "#505454",
     "searchbarBackground": "#9da2a7"
   },
   "projection": {

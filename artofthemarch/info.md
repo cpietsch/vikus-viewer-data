@@ -14,4 +14,4 @@ The signs and posters are positioned by their dominant color.
 
 You can either zoom with your touchpad or scroll wheel in the areas of the signs and posters in order to see more details. Klick and drag the background in order to adjust the visible area.
 
-Powered by [Vikus Viewer](https://vikusviewer.fh-potsdam.de), made by [Christopher Pietsch](https://www.chrispie.com)
+Powered by VIKUS Viewer, made by [Christopher Pietsch](https://www.chrispie.com)
