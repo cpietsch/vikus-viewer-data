@@ -4,11 +4,11 @@ Goethe leitete ab 1797 über dreißig Jahre lang die Weimarer Bibliothek - und w
 
 ![tags](img/infobar_tags.svg)
 
-Die Stichwörter stellen die häufigsten Themen der ausgeliehenen Bücher dar. Klicken Sie auf die Stichwörter, um die Auswahl der Titelblätter thematisch einzugrenzen. *Über das Suchfeld können die Titel nach einzelnen Wörtern und AutorInnen durchsucht werden.*
+Die **Stichwörter** stellen die häufigsten Themen der ausgeliehenen Bücher dar. Klicken Sie auf die Stichwörter, um die Auswahl der Titelblätter thematisch einzugrenzen. Über das Suchfeld können die Titel nach einzelnen Wörtern und AutorInnen durchsucht werden.
 
 ![time](img/infobar_time.svg)
 
-Die Bücher sind entlang einer Zeitleiste entsprechend ihres Ausleihdatum positioniert. Unter den Jahreszahlen befinden sich weitere historische und biographische Informationen.
+Die **Bücher** sind entlang einer Zeitleiste entsprechend ihres Ausleihdatum positioniert. Unter den Jahreszahlen befinden sich weitere historische und biographische Informationen.
 
 ![time](img/infobar_scroll.svg)
 
