@@ -1,10 +1,10 @@
-# Goethes Bibliothek
+# Goethe und die Weimarer Bibliothek
 
-Goethes Bibliothek enthält Bücher aller Wissensgebiete aus über 20 Sprachen und Literaturen vom 16. Jahrhundert bis zur Goethezeit. In- und ausländische Zeitschriften, Lexika, Auktionskataloge sind ebenso vorhanden wie wertvolle Kunstbände und zeitgenössische Literatur. Über ein Viertel der Sammlung nehmen die Naturwissenschaften ein. Für die Forschung von unschätzbarem Wert sind die eigenhändigen Eintragungen und Anmerkungen Goethes.
+Goethe leitete ab 1797 über dreißig Jahre lang die Weimarer Bibliothek - und war ihr eifrigster Benutzer. Von seiner Ankunft in Weimar 1775 bis zu seinem Tod 1832 lieh er mehr als 3.000 Bände aus allen Wissensgebieten aus. Sie waren ein wichtiges Hilfsmittel bei seiner Arbeit und ergänzten die private Bibliothek, die er in seinem Wohnhaus am Weimarer Frauenplan aufbewahrte. Die meisten Bücher dieser sind noch in der heutigen Herzogin Anna Amalia Bibliothek  vorhanden.
 
 ![tags](img/infobar_tags.svg)
 
-Die Stichwörter stellen die häufigsten Themen der ausgeliehenen Bücher dar. Klicken Sie auf die Stichwörter, um die Auswahl der Titelblätter thematisch einzugrenzen.
+Die Stichwörter stellen die häufigsten Themen der ausgeliehenen Bücher dar. Klicken Sie auf die Stichwörter, um die Auswahl der Titelblätter thematisch einzugrenzen. *Über das Suchfeld können die Titel nach einzelnen Wörtern und AutorInnen durchsucht werden.*
 
 ![time](img/infobar_time.svg)
 
