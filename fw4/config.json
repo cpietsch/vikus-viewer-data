@@ -87,7 +87,7 @@
       {
         "name": "Thementexte",
         "source": "_thementexte",
-        "display": "wide",
+        "display": "column",
         "type": "markdown"
       },
       {
