@@ -4,11 +4,11 @@ Die Visualisierung zeigt den Bestand historischer Zeichnungen von Friedrich Wilh
 
 ![tags](img/infobar_tags.svg)
 
-Die STICHWÖRTER stellen die häufigsten Themen in den Zeichnungen Friedrich Wilhelms IV dar. Klicken Sie auf die Stichwörter, um die Auswahl der Zeichnungen thematisch einzugrenzen.
+Die **Stichwörter** stellen die häufigsten Themen in den Zeichnungen Friedrich Wilhelms IV dar. Klicken Sie auf die Stichwörter, um die Auswahl der Zeichnungen thematisch einzugrenzen.
 
 ![time](img/infobar_time.svg)
 
-Die ZEICHNUNGEN sind entlang einer Zeitleiste entsprechend ihrer Entstehungsjahre positioniert. Unter den Jahreszahlen befinden sich weitere historische und biographische Informationen.
+Die __Zeichnungen__ sind entlang einer Zeitleiste entsprechend ihrer Entstehungsjahre positioniert. Unter den Jahreszahlen befinden sich weitere historische und biographische Informationen.
 
 ![time](img/infobar_scroll.svg)
 

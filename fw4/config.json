@@ -68,13 +68,7 @@
       },
       {
         "name": "Abmessungen",
-        "source": "column._width + 'mm * ' + column._height + 'mm'",
-        "display": "column",
-        "type": "function"
-      },
-      {
-        "name": "Thementexte",
-        "source": "_thementexte",
+        "source": "_masse",
         "display": "column",
         "type": "text"
       },
@@ -86,9 +80,15 @@
       },
       {
         "name": "Inventarnr.",
-        "source": "_id",
+        "source": "_inventarnr",
         "display": "column",
         "type": "text"
+      },
+      {
+        "name": "Thementexte",
+        "source": "_thementexte",
+        "display": "wide",
+        "type": "markdown"
       },
       {
         "name": "Literatur",
@@ -97,7 +97,7 @@
         "type": "text"
       },
       {
-        "name": "Material",
+        "name": "Material / Technik",
         "source": "_marterial",
         "display": "column",
         "type": "text"
