@@ -1,4 +1,4 @@
-# VERGANGENE VISIONENaus der Feder von Friedrich Wilhelm IV.
+# VERGANGENE VISIONEN aus der Feder von Friedrich Wilhelm IV.
 
 Die Visualisierung zeigt den Bestand historischer Zeichnungen von Friedrich Wilhelm IV. entlang einer thematischen und zeitlichen Einordnung.
 
