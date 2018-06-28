@@ -5,22 +5,22 @@
     "multiple": true
 },
   "loader": {
-    "info": "https://vikusviewer.fh-potsdam.de/muenzen/data/info.md",
-    "timeline": "https://vikusviewer.fh-potsdam.de/muenzen/data/timeline.csv",
-    "items": "https://vikusviewer.fh-potsdam.de/muenzen/data/data.csv",
+    "info": "data/info.md",
+    "timeline": "data/timeline.csv",
+    "items": "data/data.csv",
     "textures": {
-      "preview": "https://vikusviewer.fh-potsdam.de/muenzen/data/sprites/menu_small_web.json",
+      "preview": "data/sprites/menu_small_web.json",
       "medium": {
         "size": 256,
-        "url": "https://vikusviewer.fh-potsdam.de/muenzen/data/sprites256/web_web_full.json"
+        "url": "data/sprites256/web_web_full.json"
       },
       "detail": {
         "size": 1024,
-        "url": "https://vikusviewer.fh-potsdam.de/muenzen/data/1024jpg/"
+        "url": "data/1024jpg/"
       },
       "big": {
         "size": 4000,
-        "url": "https://vikusviewer.fh-potsdam.de/muenzen/data/4000jpg/"
+        "url": "data/4000jpg/"
       }
     }
   },
@@ -66,7 +66,7 @@
         "name": "Stichworte",
         "source": "_keywords",
         "display": "column",
-        "type": "keywords"
+        "type": "array"
       },
       {
         "name": "Datierung",
