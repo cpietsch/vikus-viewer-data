@@ -55,6 +55,36 @@
         "type": "text"
       },
       {
+        "name": "Inventarnr.",
+        "source": "_inventarnr",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Person",
+        "source": "_person",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Material / Technik",
+        "source": "_marterial",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Wasserzeichen",
+        "source": "_wasserzeichen",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Maße",
+        "source": "_masse",
+        "display": "column",
+        "type": "text"
+      },
+      {
         "name": "Bezeichnungen",
         "source": "_bezeichnungen",
         "display": "column",
@@ -63,24 +93,6 @@
       {
         "name": "Datierung",
         "source": "_zeit",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "Abmessungen",
-        "source": "_masse",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "Stichworte",
-        "source": "_keywords",
-        "display": "column",
-        "type": "array"
-      },
-      {
-        "name": "Inventarnr.",
-        "source": "_inventarnr",
         "display": "column",
         "type": "text"
       },
@@ -97,16 +109,10 @@
         "type": "text"
       },
       {
-        "name": "Material / Technik",
-        "source": "_marterial",
+        "name": "Stichworte",
+        "source": "_keywords",
         "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "Wasserzeichen",
-        "source": "_wasserzeichen",
-        "display": "column",
-        "type": "text"
+        "type": "array"
       }
     ]
   }
