@@ -51,26 +51,8 @@
         "type": "text"
       },
       {
-        "name": "Beschreibung",
-        "source": "_beschreibung",
-        "display": "wide",
-        "type": "text"
-      },
-      {
-        "name": "Literatur",
-        "source": "_literatur",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "Stichworte",
-        "source": "_keywords",
-        "display": "column",
-        "type": "array"
-      },
-      {
-        "name": "Datierung",
-        "source": "_zeit",
+        "name": "Person / Funktion",
+        "source": "_funktion",
         "display": "column",
         "type": "text"
       },
@@ -81,28 +63,52 @@
         "type": "text"
       },
       {
+        "name": "Zeit",
+        "source": "_zeit",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Material / Technik",
+        "source": "_material",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Masse",
+        "source": "_gewicht",
+        "display": "column",
+        "type": "text"
+      },
+      {
         "name": "Durchmesser",
         "source": "_durchmesser",
         "display": "column",
         "type": "text"
       },
       {
-        "name": "Gewicht",
-        "source": "_gewicht",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "Funktion",
-        "source": "_funktion",
-        "display": "column",
-        "type": "text"
+        "name": "Beschreibung",
+        "source": "_beschreibung",
+        "display": "wide",
+        "type": "markdown"
       },
       {
         "name": "Inventarnr.",
         "source": "_inventar_nr",
         "display": "column",
         "type": "text"
+      },
+      {
+        "name": "Literatur",
+        "source": "_literatur",
+        "display": "column",
+        "type": "markdown"
+      },
+      {
+        "name": "Schlagworte",
+        "source": "_keywords",
+        "display": "column",
+        "type": "array"
       }
     ]
   }
