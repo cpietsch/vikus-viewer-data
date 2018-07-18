@@ -109,7 +109,7 @@
         "type": "text"
       },
       {
-        "name": "Stichworte",
+        "name": "Schlagworte",
         "source": "_keywords",
         "display": "column",
         "type": "array"
