@@ -5,22 +5,22 @@
     "multiple": true
 },
   "loader": {
-    "info": "data/info.md",
-    "timeline": "data/timeline.csv",
-    "items": "data/data.csv",
+    "info": "https://vikusviewer.fh-potsdam.de/muenzen/vis/data/info.md",
+    "timeline": "https://vikusviewer.fh-potsdam.de/muenzen/vis/data/timeline.csv",
+    "items": "https://vikusviewer.fh-potsdam.de/muenzen/vis/data/data.csv",
     "textures": {
-      "preview": "data/sprites/menu_small_web.json",
+      "preview": "https://vikusviewer.fh-potsdam.de/muenzen/vis/data/sprites/menu_small_web.json",
       "medium": {
         "size": 256,
-        "url": "data/sprites256/web_web_full.json"
+        "url": "https://vikusviewer.fh-potsdam.de/muenzen/vis/data/sprites256/web_web_full.json"
       },
       "detail": {
         "size": 1024,
-        "url": "data/1024jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/muenzen/vis/data/1024jpg/"
       },
       "big": {
         "size": 4000,
-        "url": "data/4000jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/muenzen/vis/data/4000jpg/"
       }
     }
   },
@@ -51,20 +51,14 @@
         "type": "text"
       },
       {
-        "name": "Person / Funktion",
-        "source": "_funktion",
+        "name": "Person",
+        "source": "_personen",
         "display": "column",
         "type": "text"
       },
       {
-        "name": "Ort",
-        "source": "_ort",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "Zeit",
-        "source": "_zeit",
+        "name": "Ort / Datierung",
+        "source": "_ortdatierung",
         "display": "column",
         "type": "text"
       },
@@ -83,6 +77,12 @@
       {
         "name": "Durchmesser",
         "source": "_durchmesser",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Abmessungen",
+        "source": "_abmessungen",
         "display": "column",
         "type": "text"
       },
@@ -106,9 +106,9 @@
       },
       {
         "name": "Schlagworte",
-        "source": "_keywords",
+        "source": "_schlagworte",
         "display": "column",
-        "type": "array"
+        "type": "markdown"
       }
     ]
   }
