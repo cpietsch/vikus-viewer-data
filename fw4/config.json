@@ -4,21 +4,21 @@
     "quality": 1
  },
   "loader": {
-    "info": "https://vikusviewer.fh-potsdam.de/fw4/data/info.md",
-    "timeline": "https://vikusviewer.fh-potsdam.de/fw4/data/timeline.csv",
-    "items": "https://vikusviewer.fh-potsdam.de/fw4/data/data.csv",
+    "info": "https://vikusviewer.fh-potsdam.de/fw4/vis/data/info.md",
+    "timeline": "https://vikusviewer.fh-potsdam.de/fw4/vis/data/timeline.csv",
+    "items": "https://vikusviewer.fh-potsdam.de/fw4/vis/data/data.csv",
     "textures": {
       "medium": {
         "size": 128,
-        "url": "https://vikusviewer.fh-potsdam.de/fw4/data/sprites128/web_web_full.json"
+        "url": "https://vikusviewer.fh-potsdam.de/fw4/vis/data/sprites128/web_web_full.json"
       },
       "detail": {
         "size": 1024,
-        "url": "https://vikusviewer.fh-potsdam.de/fw4/data/1024jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/fw4/vis/data/1024jpg/"
       },
       "big": {
         "size": 4096,
-        "url": "https://vikusviewer.fh-potsdam.de/fw4/data/4096jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/fw4/vis/data/4096jpg/"
       }
     }
   },
