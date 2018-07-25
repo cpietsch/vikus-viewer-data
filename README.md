@@ -1,5 +1,3 @@
 # vikus-viewer-data
 
-###symlinks
-
-```ln -s ../data/artofthemarch data```
+Have a look at https://github.com/cpietsch/vikus-viewer
