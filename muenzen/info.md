@@ -13,3 +13,6 @@ Die Münzen sind entlang einer Zeitleiste entsprechend ihrer Entstehungsjahre po
 ![time](img/infobar_scroll_b.svg)
 
 Zoomen Sie mit Ihrem Touchpad oder Scrollrad in den Bereich der Münzen und Zeitleiste, um mehr Details zu sehen. Klicken und ziehen Sie den Hintergrund, um den Sichtbereich zu verschieben.
+
+
+[Mehr Informationen zum Visualisierunsprojekt](https://vikusviewer.fh-potsdam.de/muenzen/)
