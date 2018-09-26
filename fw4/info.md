@@ -14,4 +14,4 @@ Die __Zeichnungen__ sind entlang einer Zeitleiste entsprechend ihrer Entstehungs
 
 Zoomen Sie mit Ihrem Touchpad oder Scrollrad in den Bereich der Zeichnungen und Zeitleiste, um mehr Details zu sehen. Klicken und ziehen Sie den Hintergrund, um den Sichtbereich zu verschieben.
 
-[Einführung zur Sammlung](htttps://vikusviewer.fh-potsdam.de/fw4/pdf/Einfuehrung-zur-Sammlung.pdf), [Literaturliste](htttps://vikusviewer.fh-potsdam.de/fw4/pdf/Literatur.pdf)
+[Einführung zur Sammlung](https://vikusviewer.fh-potsdam.de/fw4/pdf/Einfuehrung-zur-Sammlung.pdf), [Literaturliste](https://vikusviewer.fh-potsdam.de/fw4/pdf/Literatur.pdf)
