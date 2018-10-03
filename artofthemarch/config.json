@@ -62,7 +62,7 @@
         "name": "keywords",
         "source": "_keywords",
         "display": "column",
-        "type": "keywords"
+        "type": "array"
       },
       {
         "name": "strategy",
