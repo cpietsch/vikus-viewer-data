@@ -1,0 +1,169 @@
+{
+  "project": {
+    "name": "Staedl",
+    "quality": 1,
+    "multiple": false
+  },
+  "loader": {
+    "info": "data/info.md",
+    "timeline": "data/timeline.csv",
+    "items": "data/data.csv",
+    "textures": {
+      "medium": {
+        "size": 256,
+        "url": "data/sprites/web_web_full.json"
+      },
+      "detail": {
+        "size": 1025,
+        "url": "https://vikusviewer.fh-potsdam.de/staedl/data/1024jpg/"
+      },
+      "big": {
+        "size": 4096,
+        "url": "https://vikusviewer.fh-potsdam.de/staedl/data/4096jpg/"
+      }
+    }
+  },
+  "style": {
+    "fontColor": "#505454",
+    "fontColorActive": "#ffffff",
+    "fontBackground": "#505454",
+    "textShadow": "none",
+    "canvasBackground": "#fdfeff",
+    "timelineBackground": "#fdfeff",
+    "timelineFontColor": "#505454",
+    "backgroundHeader": "#035151",
+    "fontColorHeader": "#fffefa",
+    "detailBackground": "#fdfeff",
+    "sidebarInverted": true,
+    "infoBackground": "#fdfeff",
+    "infoFontColor": "#505454",
+    "searchbarBackground": "#9da2a7"
+  },
+  "projection": {
+    "columns": 2
+  },
+  "detail": {
+    "structure": [
+      {
+        "name": "title",
+        "source": "_mTitle",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "text",
+        "source": "_mText",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "show",
+        "source": "_mShow",
+        "display": "wide",
+        "type": "text"
+      },
+      {
+        "name": "keywords",
+        "source": "_keywords",
+        "display": "column",
+        "type": "array"
+      },
+      {
+        "name": "strategy",
+        "source": "_strategy",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "cultural context",
+        "source": "_mCulturalContext",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "tone",
+        "source": "_mTone",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "concern",
+        "source": "_mConcern",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "lettering style",
+        "source": "_mLetteringStyle",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "contains",
+        "source": "_mContains",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "made",
+        "source": "_mMade",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "id",
+        "source": "_id",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "additional notes",
+        "source": "_mAdditionalNotes",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "additional keywords",
+        "source": "_mAdditionalKeywords",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "notes intent",
+        "source": "_mNotesIntent",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "signed",
+        "source": "_mSigned",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "additional theme",
+        "source": "_mAdditionalTheme",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "notes image and text",
+        "source": "_mNotesImageAndText",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "labels",
+        "source": "_labels",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "logos",
+        "source": "_logos",
+        "display": "column",
+        "type": "text"
+      }
+    ]
+  }
+}
