@@ -4,4 +4,7 @@ Die Sammlungsdaten umfassen Metadaten, die über LIDO hinaus gehen, und Verweise
 
 Bilddaten in Form von PNGs sind vor dem Alphakanal beschnitten und für jedes Objekt vorhanden. Fast alle Objekte haben Labeltexte, manche Objekte besitzen zusätzlich Audioguides und / oder Videos.
 
-Quelle: [Städel Museum](https://www.staedelmuseum.de/en)
+_Lizenzen des Datensets_
+Bilder: CC-BY-SA 4.0  
+Metadaten: CC0
+Datengebende Institution: [Städel Museum](https://www.staedelmuseum.de/en)
