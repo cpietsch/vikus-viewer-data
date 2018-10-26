@@ -15,11 +15,11 @@
       },
       "detail": {
         "size": 1025,
-        "url": "https://vikusviewer.fh-potsdam.de/staedl/data/1024jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/staedl/data/1024/"
       },
       "big": {
         "size": 4096,
-        "url": "https://vikusviewer.fh-potsdam.de/staedl/data/4096jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/staedl/data/4096/"
       }
     }
   },
