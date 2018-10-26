@@ -45,122 +45,14 @@
   "detail": {
     "structure": [
       {
-        "name": "title",
-        "source": "_mTitle",
-        "display": "wide",
-        "type": "text"
-      },
-      {
-        "name": "text",
-        "source": "_mText",
-        "display": "wide",
-        "type": "text"
-      },
-      {
-        "name": "show",
-        "source": "_mShow",
-        "display": "wide",
-        "type": "text"
-      },
-      {
         "name": "keywords",
         "source": "_keywords",
         "display": "column",
         "type": "array"
       },
       {
-        "name": "strategy",
-        "source": "_strategy",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "cultural context",
-        "source": "_mCulturalContext",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "tone",
-        "source": "_mTone",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "concern",
-        "source": "_mConcern",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "lettering style",
-        "source": "_mLetteringStyle",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "contains",
-        "source": "_mContains",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "made",
-        "source": "_mMade",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "id",
-        "source": "_id",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "additional notes",
-        "source": "_mAdditionalNotes",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "additional keywords",
-        "source": "_mAdditionalKeywords",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "notes intent",
-        "source": "_mNotesIntent",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "signed",
-        "source": "_mSigned",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "additional theme",
-        "source": "_mAdditionalTheme",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "notes image and text",
-        "source": "_mNotesImageAndText",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "labels",
-        "source": "_labels",
-        "display": "column",
-        "type": "text"
-      },
-      {
-        "name": "logos",
-        "source": "_logos",
+        "name": "year",
+        "source": "year",
         "display": "column",
         "type": "text"
       }
