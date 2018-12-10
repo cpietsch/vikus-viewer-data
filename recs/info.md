@@ -14,4 +14,4 @@ Die Flugschriften sind entlang einer Zeitleiste entsprechend ihres Datums positi
 
 Zoomen Sie mit Ihrem Touchpad oder Scrollrad in den Bereich der Zeichnungen und Zeitleiste, um mehr Details zu sehen. Klicken und ziehen Sie den Hintergrund, um den Sichtbereich zu verschieben.
 
-[Mehr Informationen zum Visualisierunsprojekt](https://vikusviewer.fh-potsdam.de/muenzen/) 
+[Mehr Informationen zum Visualisierunsprojekt](https://vikusviewer.fh-potsdam.de/recs/) 
