@@ -5,21 +5,21 @@
     "multiple": true
   },
   "loader": {
-    "info": "https://vikusviewer.fh-potsdam.de/recs/data/info.md",
-    "timeline": "https://vikusviewer.fh-potsdam.de/recs/data/timeline.csv",
-    "items": "https://vikusviewer.fh-potsdam.de/recs/data/data.csv",
+    "info": "https://vikusviewer.fh-potsdam.de/recs/vis/data/info.md",
+    "timeline": "https://vikusviewer.fh-potsdam.de/recs/vis/data/timeline.csv",
+    "items": "https://vikusviewer.fh-potsdam.de/recs/vis/data/data.csv",
     "textures": {
       "medium": {
         "size": 256,
-        "url": "https://vikusviewer.fh-potsdam.de/recs/data/sprites/web_web_full.json"
+        "url": "https://vikusviewer.fh-potsdam.de/recs/vis/data/sprites/web_web_full.json"
       },
       "detail": {
         "size": 1024,
-        "url": "https://vikusviewer.fh-potsdam.de/recs/data/1024jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/recs/vis/data/1024jpg/"
       },
       "big": {
         "size": 4096,
-        "url": "https://vikusviewer.fh-potsdam.de/recs/data/4096jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/recs/vis/data/4096jpg/"
       }
     }
   },
@@ -46,18 +46,6 @@
         "name": "_titel",
         "source": "_titel",
         "display": "wide",
-        "type": "text"
-      },
-      {
-        "name": "_zustandsbeschreibung",
-        "source": "_zustandsbeschreibung",
-        "display": "wide",
-        "type": "text"
-      },
-      {
-        "name": "_material",
-        "source": "_material",
-        "display": "column",
         "type": "text"
       },
       {
