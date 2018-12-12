@@ -55,7 +55,7 @@
         "type": "text"
       },
       {
-        "name": "Ort: Verlag, Jahr",
+        "name": "Ort, Verlag, Jahr",
         "source": "_ort",
         "display": "column",
         "type": "text"
