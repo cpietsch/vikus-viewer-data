@@ -15,11 +15,11 @@
       },
       "detail": {
         "size": 1024,
-        "url": "https://vikusviewer.fh-potsdam.de/recs/vis/data/1024jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/recs/vis/data/1024/"
       },
       "big": {
         "size": 4096,
-        "url": "https://vikusviewer.fh-potsdam.de/recs/vis/data/4096jpg/"
+        "url": "https://vikusviewer.fh-potsdam.de/recs/vis/data/4096/"
       }
     }
   },
@@ -43,25 +43,49 @@
   "detail": {
     "structure": [
       {
-        "name": "_titel",
+        "name": "Titel",
         "source": "_titel",
-        "display": "wide",
-        "type": "text"
-      },
-      {
-        "name": "_kommentar",
-        "source": "_kommentar",
         "display": "column",
         "type": "text"
       },
       {
-        "name": "_objektgeschichte",
-        "source": "_objektgeschichte",
+        "name": "Verfasser",
+        "source": "_verfasser",
         "display": "column",
         "type": "text"
       },
       {
-        "name": "Stichworte",
+        "name": "Ort: Verlag, Jahr",
+        "source": "_ort",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Umfang",
+        "source": "_umfang",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Inhalt",
+        "source": "_inhalt",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Beilagen",
+        "source": "_beilagen",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Signatur",
+        "source": "_id",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Schlagworte",
         "source": "_keywords",
         "display": "column",
         "type": "array"
