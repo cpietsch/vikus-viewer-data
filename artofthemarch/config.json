@@ -8,7 +8,15 @@
     "info": "https://vikusviewer.fh-potsdam.de/artofthemarch/data/info.md",
     "timeline": "https://vikusviewer.fh-potsdam.de/artofthemarch/data/timeline.csv",
     "items": "https://vikusviewer.fh-potsdam.de/artofthemarch/data/data.csv",
-    "tsne": "https://vikusviewer.fh-potsdam.de/artofthemarch/data/tsne.csv",
+    "layouts": [
+        {
+            "title": "Time"
+        },
+        {
+            "title": "Similarity",
+            "url": "https://vikusviewer.fh-potsdam.de/artofthemarch/data/tsne.csv"
+        }
+    ],
     "textures": {
       "medium": {
         "size": 128,
