@@ -7,7 +7,15 @@
     "info": "https://vikusviewer.fh-potsdam.de/data/vangogh/info.md",
     "timeline": "https://vikusviewer.fh-potsdam.de/data/vangogh/timeline.csv",
     "items": "https://vikusviewer.fh-potsdam.de/data/vangogh/data.csv",
-    "tsne": "https://vikusviewer.fh-potsdam.de/data/vangogh/tsne.csv",
+    "layouts": [
+        {
+            "title": "Time"
+        },
+        {
+            "title": "Similarity",
+            "url": "https://vikusviewer.fh-potsdam.de/data/vangogh/tsne.csv"
+        }
+    ],
     "textures": {
       "medium": {
         "size": 256,
